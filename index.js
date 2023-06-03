@@ -80,7 +80,7 @@ const moreinfo = () => {
       event.preventDefault();
       const data = { id: `${element.id}` };
       const queryString = new URLSearchParams(data).toString();
-      const url = `Meal_F1.github.io/info.html?${queryString}`;
+      const url = `/Meal_F1.github.io/info.html?${queryString}`;
       window.location.href = url;//apending the url of moreinfo page to window ann sending the data into params
     })
   })
